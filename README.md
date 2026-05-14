@@ -78,4 +78,3 @@ Apesar das limitações dos dados, o modelo identificou **300 regras** com assoc
 - **Ambiente:** VS Code / Jupyter Notebook
 
 ---
-**Desenvolvido por Sarah Cavalcante Salvino** 🚀
