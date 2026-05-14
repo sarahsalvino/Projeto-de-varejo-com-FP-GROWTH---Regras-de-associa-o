@@ -25,7 +25,7 @@ Após a visão geral, a análise foi aprofundada no setor de **Lojas de Departam
 
 ---
 
-## 🤖 3. Modelo de Machine Learning: FP-Growth
+## 🤖 3. Modelo: FP-Growth
 Para a recomendação de itens, utilizei o algoritmo **FP-Growth (Frequent Pattern Growth)**.
 
 ### Por que FP-Growth?
