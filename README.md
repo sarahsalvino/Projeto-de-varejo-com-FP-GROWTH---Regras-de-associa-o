@@ -64,7 +64,25 @@ Apesar das limitações dos dados, o modelo identificou **300 regras** com assoc
    - `Laranja ↔ Leite` / `Frango ↔ Banana` (Reposição de frescos).
    - `Fraldas ↔ Purificador de Ar` (Perfil de pais com bebês).
    - `Cereal ↔ Pá de Lixo` (Padrão de compra mensal de suprimentos).
-  
+
+
+  ### 📈 Exemplos de Perfis Identificados (Department Store)
+Note que, embora a **Confiança** seja numericamente baixa (característica do dataset disperso), o **Lift** consistentemente acima de 1 confirma a existência de um padrão de associação entre os itens:
+
+Antecedente ↔ Consequente	Suporte	Confiança	Lift
+Sponges ↔ Soap	0.001392	3.81%	1.0594
+Shaving Cream ↔ Razors	0.001344	3.76%	1.0593
+Garden Hose ↔ Water	0.001464	4.02%	1.0938
+
+Cheese ↔ Mustard	0.001464	4.05%	1.1094
+Tuna ↔ Vinegar	0.001362	3.85%	1.0799
+Tomatoes ↔ Cleaning Rags	0.001458	4.01%	1.1185
+
+Orange ↔ Milk	0.001392	3.85%	1.0724
+Banana ↔ Chicken	0.001374	3.81%	1.0720
+Diapers ↔ Air Freshener	0.001404	3.91%	1.0781
+Dustpan ↔ Cereal	0.001398	3.93%	1.0986
+
 
 <img width="834" height="552" alt="gráfico" src="https://github.com/user-attachments/assets/76efd8ed-4c94-450f-a772-a237d649dd82" />
 
