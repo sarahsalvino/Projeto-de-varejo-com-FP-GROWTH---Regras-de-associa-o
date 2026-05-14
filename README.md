@@ -69,6 +69,8 @@ Apesar das limitações dos dados, o modelo identificou **300 regras** com assoc
   ### 📈 Exemplos de Perfis Identificados (Department Store)
 Note que, embora a **Confiança** seja numericamente baixa (característica do dataset disperso), o **Lift** consistentemente acima de 1 confirma a existência de um padrão de associação entre os itens:
 
+
+Antecedente ↔ ConsequenteSuporteConfiançaLiftSponges ↔ Soap0.0013923.81%1.0594Shaving Cream ↔ Razors0.0013443.76%1.0593Garden Hose ↔ Water0.0014644.02%1.0938Cheese ↔ Mustard0.0014644.05%1.1094Tuna ↔ Vinegar0.0013623.85%1.0799Tomatoes ↔ Cleaning Rags0.0014584.01%1.1185Orange ↔ Milk0.0013923.85%1.0724Banana ↔ Chicken0.0013743.81%1.0720Diapers ↔ Air Freshener0.0014043.91%1.0781Dustpan ↔ Cereal0.0013983.93%1.0986
 Antecedente ↔ Consequente	Suporte	Confiança	Lift
 
 Sponges ↔ Soap	0.001392	3.81%	1.0594
