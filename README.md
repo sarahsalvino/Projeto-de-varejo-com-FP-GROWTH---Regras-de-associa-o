@@ -70,6 +70,7 @@ Apesar das limitações dos dados, o modelo identificou **300 regras** com assoc
 Note que, embora a **Confiança** seja numericamente baixa (característica do dataset disperso), o **Lift** consistentemente acima de 1 confirma a existência de um padrão de associação entre os itens:
 
 Antecedente ↔ Consequente	Suporte	Confiança	Lift
+
 Sponges ↔ Soap	0.001392	3.81%	1.0594
 Shaving Cream ↔ Razors	0.001344	3.76%	1.0593
 Garden Hose ↔ Water	0.001464	4.02%	1.0938
