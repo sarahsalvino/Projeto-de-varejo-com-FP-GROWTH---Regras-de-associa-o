@@ -64,6 +64,10 @@ Apesar das limitações dos dados, o modelo identificou **300 regras** com assoc
    - `Laranja ↔ Leite` / `Frango ↔ Banana` (Reposição de frescos).
    - `Fraldas ↔ Purificador de Ar` (Perfil de pais com bebês).
    - `Cereal ↔ Pá de Lixo` (Padrão de compra mensal de suprimentos).
+  
+
+<img width="834" height="552" alt="gráfico" src="https://github.com/user-attachments/assets/76efd8ed-4c94-450f-a772-a237d649dd82" />
+
 
 ---
 
