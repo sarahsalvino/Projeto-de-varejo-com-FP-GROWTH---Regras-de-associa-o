@@ -1,15 +1,15 @@
-# 🛒 Análise de Dados de Varejo & Regras de Associação com FP-Growth
+# Análise de Dados de Varejo & Regras de Associação com FP-Growth
 
 Este projeto consiste em uma análise exploratória de dados (EDA) e na implementação de um modelo de Machine Learning para recomendação de produtos em um cenário de varejo multissetorial.
 
-## 📌 Objetivo do Projeto
+## Objetivo do Projeto
 O desafio foi dividido em duas etapas principais:
 1. **Análise de Negócio:** Responder a perguntas estratégicas para auxiliar gestores na tomada de decisão e identificação de gargalos.
 2. **Modelo Preditivo:** Implementar um sistema de recomendação baseado em associações de itens, focando no setor de **Department Store**.
 
 ---
 
-## 📊 1. Análise Exploratória (Geral)
+## 1. Análise Exploratória (Geral)
 Nesta etapa, foram respondidas questões fundamentais para a saúde do negócio:
 - **Volume de Vendas:** Total de itens vendidos e faturamento global.
 - **Eficiência por Unidade:** Desempenho e representatividade de cada `Store_type`.
@@ -18,14 +18,14 @@ Nesta etapa, foram respondidas questões fundamentais para a saúde do negócio:
 
 ---
 
-## 🏬 2. Foco no Setor: Department Store
+## 2. Foco no Setor: Department Store
 Após a visão geral, a análise foi aprofundada no setor de **Lojas de Departamento**, onde foram realizados recortes para entender:
 - Itens de maior e menor frequência.
 - Preferências de compra por perfil de cliente.
 
 ---
 
-## 🤖 3. Modelo: FP-Growth
+## 3. Modelo: FP-Growth
 Para a recomendação de itens, utilizei o algoritmo **FP-Growth (Frequent Pattern Growth)**.
 
 ### Por que FP-Growth?
@@ -38,7 +38,7 @@ Diferente do algoritmo Apriori, o FP-Growth não gera candidatos de forma exaust
 
 ---
 
-## 📉 Análise dos Resultados e Tuning
+## Análise dos Resultados e Tuning
 Durante o desenvolvimento, foi realizado o **tuning dos hiperparâmetros**, ajustando os níveis de suporte mínimo e confiança. 
 
 > [!IMPORTANT]
@@ -46,10 +46,10 @@ Durante o desenvolvimento, foi realizado o **tuning dos hiperparâmetros**, ajus
 
 ---
 
-## 💡 Conclusões
+## Conclusões
 Apesar das limitações dos dados, o modelo identificou **300 regras** com associação real (`lift > 1`). Abaixo, as principais associações bidirecionais agrupadas por perfil:
 
-### 🛍️ Perfis Identificados
+### Perfis Identificados
 1. **Cross-sell Direto** (Complementaridade imediata):
    - `Esponjas ↔ Sabão` (Lift: 1.06)
    - `Creme de Barbear ↔ Lâminas` (Lift: 1.06)
@@ -66,7 +66,7 @@ Apesar das limitações dos dados, o modelo identificou **300 regras** com assoc
    - `Cereal ↔ Pá de Lixo` (Padrão de compra mensal de suprimentos).
 
 
-  ### 📈 Exemplos de Perfis Identificados (Department Store)
+  ### Exemplos de Perfis Identificados (Department Store)
 Note que, embora a **Confiança** seja numericamente baixa (característica do dataset disperso), o **Lift** consistentemente acima de 1 confirma a existência de um padrão de associação entre os itens:
 
 
@@ -91,7 +91,7 @@ Note que, embora a **Confiança** seja numericamente baixa (característica do d
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Python** (Pandas, Numpy)
 - **Machine Learning:** MLxtend (FP-Growth)
 - **Visualização:** Matplotlib / Seaborn
